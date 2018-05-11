@@ -1,0 +1,29 @@
+{
+  "name": "hubot-jerigonza",
+  "version": "1.0.0",
+  "description": "Hubot cambia el mensaje a jerigonza",
+  "main": "jerigonza.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keld0r/hubot-jerigonza.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "jerigonza"
+  ],
+  "author": "Keldor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keld0r/hubot-jerigonza/issues"
+  },
+  "homepage": "https://github.com/keld0r/hubot-jerigonza#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
