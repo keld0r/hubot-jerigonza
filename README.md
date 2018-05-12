@@ -21,6 +21,9 @@ Agregar en `external-scripts.json`:
 
 ```bash
 hubot> hubot en jerigonza <mensaje>
+hubot> hubot en jeringonza <mensaje>
+hubot> hubot en jerigoncio <mensaje>
+hubot> hubot en jeringoza <mensaje>
 ```
 
 **Ejemplo:**
