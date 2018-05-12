@@ -30,7 +30,7 @@ function jerigonza(phrase)
 		'\xfap\xfa'
 	];
 	for(i = 0; i < vowels.length; i++){
-    let re = new RegExp(vowels[i], "g");
+		let re = new RegExp(vowels[i], "g");
 		message = message.replace(re,vowelsReplace[i]);
 	}
   return message;
@@ -38,7 +38,7 @@ function jerigonza(phrase)
 
 module.exports = function(robot) {
   robot.respond(/en jerigonza (.*)/i, function(res) {
-    var phrase = res.match[1];
+    let phrase = res.match[1];
     res.send(jerigonza(phrase));
   });
 };
