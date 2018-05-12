@@ -37,7 +37,7 @@ function jerigonza(phrase)
 }
 
 module.exports = function(robot) {
-  robot.respond(/en jerigonza (.*)/i, function(res) {
+  robot.respond(/en (jerigonza|jeringonza|jerigoncio|jeringoza) (.*)/i, function(res) {
     let phrase = res.match[1];
     res.send(jerigonza(phrase));
   });
