@@ -1,6 +1,6 @@
 {
   "name": "hubot-jerigonza",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hubot cambia el mensaje a jerigonza",
   "main": "jerigonza.js",
   "scripts": {
